@@ -20,7 +20,7 @@ const ProblemTwo = () => {
     var input = e.target.value;
     var newFilterData = [];
     initialData.forEach((data) => {
-      if (data.toLowerCase().includes(input)) {
+      if (data.toLowerCase().includes(input.toLowerCase())) {
         newFilterData.push(data);
       }
     });
