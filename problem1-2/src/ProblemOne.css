@@ -1,0 +1,25 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  overflow: hidden;
+}
+
+.item1 {
+  width: 200px;
+  min-width: 200px;
+  border: 1px solid black;
+}
+
+.item2 {
+  flex-grow: 1;
+  min-width: 100px;
+  border: 1px solid black;
+}
+
+.item3 {
+  width: 300px;
+  min-width: 300px;
+  border: 1px solid black;
+}
